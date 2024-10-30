@@ -42,7 +42,7 @@ def msg_sensor(client, userdata, msg):
             umidade = mqtt_dados.get('humidity')
             co2 = mqtt_dados.get('co2')
             poeira = 0
-            tempo_registro = mqtt_dados.get('timestamps')
+            tempo_registro = mqtt_dados.get('timestamp')
 
             
             if tempo_registro is None:
